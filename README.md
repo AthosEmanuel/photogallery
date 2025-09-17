@@ -75,7 +75,7 @@ npx react-native run-android
 npx react-native run-ios
 ```
 
-### 5. Gerar APK release
+### 6. Gerar APK release
 ```bash
 cd android
 ./gradlew assembleRelease
@@ -83,9 +83,7 @@ cd android
 O APK será gerado em:  
 `android/app/build/outputs/apk/release/app-release.apk`
 
----
-
-### 6. Rodar os testes
+### 7. Rodar os testes
 
 ```bash
 npm test

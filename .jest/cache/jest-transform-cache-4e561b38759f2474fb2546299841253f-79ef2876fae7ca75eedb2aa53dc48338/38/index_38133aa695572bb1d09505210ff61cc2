@@ -1,0 +1,42 @@
+7dd8c8171e84a21be01b775ee52f1e06
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "CameraComponent", {
+  enumerable: true,
+  get: function get() {
+    return _camera.default;
+  }
+});
+var _camera = _interopRequireDefault(require("./camera"));
+function cov_2cu1lsb5tw() {
+  var path = "/home/athos/Desktop/Projetos/photogallery/src/components/index.ts";
+  var hash = "859243337730d4f9266706c34dd974e97abaaeca";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/home/athos/Desktop/Projetos/photogallery/src/components/index.ts",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "859243337730d4f9266706c34dd974e97abaaeca"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    cov_2cu1lsb5tw = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2cu1lsb5tw();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfY2FtZXJhIiwiX2ludGVyb3BSZXF1aXJlRGVmYXVsdCIsInJlcXVpcmUiLCJjb3ZfMmN1MWxzYjV0dyIsInBhdGgiLCJoYXNoIiwiZ2xvYmFsIiwiRnVuY3Rpb24iLCJnY3YiLCJjb3ZlcmFnZURhdGEiLCJzdGF0ZW1lbnRNYXAiLCJmbk1hcCIsImJyYW5jaE1hcCIsInMiLCJmIiwiYiIsIl9jb3ZlcmFnZVNjaGVtYSIsImNvdmVyYWdlIiwiYWN0dWFsQ292ZXJhZ2UiXSwic291cmNlcyI6WyJpbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBkZWZhdWx0IGFzIENhbWVyYUNvbXBvbmVudCB9IGZyb20gJy4vY2FtZXJhJztcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLElBQUFBLE9BQUEsR0FBQUMsc0JBQUEsQ0FBQUMsT0FBQTtBQUFzRCxTQUFBQyxlQUFBO0VBQUEsSUFBQUMsSUFBQTtFQUFBLElBQUFDLElBQUE7RUFBQSxJQUFBQyxNQUFBLE9BQUFDLFFBQUE7RUFBQSxJQUFBQyxHQUFBO0VBQUEsSUFBQUMsWUFBQTtJQUFBTCxJQUFBO0lBQUFNLFlBQUE7SUFBQUMsS0FBQTtJQUFBQyxTQUFBO0lBQUFDLENBQUE7SUFBQUMsQ0FBQTtJQUFBQyxDQUFBO0lBQUFDLGVBQUE7SUFBQVgsSUFBQTtFQUFBO0VBQUEsSUFBQVksUUFBQSxHQUFBWCxNQUFBLENBQUFFLEdBQUEsTUFBQUYsTUFBQSxDQUFBRSxHQUFBO0VBQUEsS0FBQVMsUUFBQSxDQUFBYixJQUFBLEtBQUFhLFFBQUEsQ0FBQWIsSUFBQSxFQUFBQyxJQUFBLEtBQUFBLElBQUE7SUFBQVksUUFBQSxDQUFBYixJQUFBLElBQUFLLFlBQUE7RUFBQTtFQUFBLElBQUFTLGNBQUEsR0FBQUQsUUFBQSxDQUFBYixJQUFBO0VBQUE7SUFBQUQsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQWUsY0FBQTtJQUFBO0VBQUE7RUFBQSxPQUFBQSxjQUFBO0FBQUE7QUFBQWYsY0FBQSIsImlnbm9yZUxpc3QiOltdfQ==

@@ -1,0 +1,1 @@
+{"version":3,"names":["_camera","_interopRequireDefault","require"],"sources":["index.ts"],"sourcesContent":["export { default as CameraComponent } from './camera';\n"],"mappings":";;;;;;;;;;AAAA,IAAAA,OAAA,GAAAC,sBAAA,CAAAC,OAAA","ignoreList":[]}

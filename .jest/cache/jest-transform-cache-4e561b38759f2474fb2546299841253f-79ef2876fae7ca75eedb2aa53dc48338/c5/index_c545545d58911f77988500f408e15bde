@@ -1,0 +1,13 @@
+c481a163d8ea6e882a157c21da528783
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "CameraComponent", {
+  enumerable: true,
+  get: function get() {
+    return _camera.default;
+  }
+});
+var _camera = _interopRequireDefault(require("./camera"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfY2FtZXJhIiwiX2ludGVyb3BSZXF1aXJlRGVmYXVsdCIsInJlcXVpcmUiXSwic291cmNlcyI6WyJpbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBkZWZhdWx0IGFzIENhbWVyYUNvbXBvbmVudCB9IGZyb20gJy4vY2FtZXJhJztcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLElBQUFBLE9BQUEsR0FBQUMsc0JBQUEsQ0FBQUMsT0FBQSIsImlnbm9yZUxpc3QiOltdfQ==

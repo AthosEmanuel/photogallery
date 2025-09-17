@@ -1,16 +1,22 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import { StatusBar, useColorScheme } from 'react-native';
+import { DetailScreen, HomeScreen } from './src/screen/';
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import React from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
+export type RootStackParamList = {
+  Galeria: undefined;
+  Detalhes: {
+    uri: string;
+    date: string;
+    coords?: { latitude: number; longitude: number };
+    onDelete?: (uri: string) => void;
+  };
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -18,28 +24,26 @@ function App() {
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
+
+      <NavigationContainer>
+        <Stack.Navigator
+          initialRouteName="Galeria"
+          screenOptions={{
+            headerStyle: {
+              backgroundColor: '#37474F',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            },
+          }}
+        >
+          <Stack.Screen name="Galeria" component={HomeScreen} />
+          <Stack.Screen name="Detalhes" component={DetailScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
     </SafeAreaProvider>
   );
 }
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;

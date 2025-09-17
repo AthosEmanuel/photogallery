@@ -26,12 +26,18 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
-		<key>NSAllowsArbitraryLoads</key>
-		<false/>
-		<key>NSAllowsLocalNetworking</key>
-		<true/>
+	  <key>NSAllowsArbitraryLoads</key>
+	  <false/>
+	  <key>NSAllowsLocalNetworking</key>
+	  <true/>
 	</dict>
+
+	<!-- Permissões adicionadas -->
+	<key>NSCameraUsageDescription</key>
+	<string>Precisamos acessar sua câmera para tirar fotos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Precisamos acessar sua galeria para salvar e exibir fotos</string>
+
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>

@@ -1,0 +1,43 @@
+9654c36ef282b14104cd9e64c6f2aced
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.HeaderIcon = HeaderIcon;
+exports.ICON_SIZE = exports.ICON_MARGIN = void 0;
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+var _native = require("@react-navigation/native");
+var _reactNative = require("react-native");
+var _jsxRuntime = require("react/jsx-runtime");
+var _excluded = ["source", "style"];
+function HeaderIcon(_ref) {
+  var source = _ref.source,
+    style = _ref.style,
+    rest = (0, _objectWithoutProperties2.default)(_ref, _excluded);
+  var _useTheme = (0, _native.useTheme)(),
+    colors = _useTheme.colors;
+  var _useLocale = (0, _native.useLocale)(),
+    direction = _useLocale.direction;
+  return (0, _jsxRuntime.jsx)(_reactNative.Image, Object.assign({
+    source: source,
+    resizeMode: "contain",
+    fadeDuration: 0,
+    tintColor: colors.text,
+    style: [styles.icon, direction === 'rtl' && styles.flip, style]
+  }, rest));
+}
+var ICON_SIZE = exports.ICON_SIZE = _reactNative.Platform.OS === 'ios' ? 21 : 24;
+var ICON_MARGIN = exports.ICON_MARGIN = _reactNative.Platform.OS === 'ios' ? 8 : 3;
+var styles = _reactNative.StyleSheet.create({
+  icon: {
+    width: ICON_SIZE,
+    height: ICON_SIZE,
+    margin: ICON_MARGIN
+  },
+  flip: {
+    transform: 'scaleX(-1)'
+  }
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfbmF0aXZlIiwicmVxdWlyZSIsIl9yZWFjdE5hdGl2ZSIsIl9qc3hSdW50aW1lIiwiX2V4Y2x1ZGVkIiwiSGVhZGVySWNvbiIsIl9yZWYiLCJzb3VyY2UiLCJzdHlsZSIsInJlc3QiLCJfb2JqZWN0V2l0aG91dFByb3BlcnRpZXMyIiwiZGVmYXVsdCIsIl91c2VUaGVtZSIsInVzZVRoZW1lIiwiY29sb3JzIiwiX3VzZUxvY2FsZSIsInVzZUxvY2FsZSIsImRpcmVjdGlvbiIsIl9qc3giLCJJbWFnZSIsIk9iamVjdCIsImFzc2lnbiIsInJlc2l6ZU1vZGUiLCJmYWRlRHVyYXRpb24iLCJ0aW50Q29sb3IiLCJ0ZXh0Iiwic3R5bGVzIiwiaWNvbiIsImZsaXAiLCJJQ09OX1NJWkUiLCJleHBvcnRzIiwiUGxhdGZvcm0iLCJPUyIsIklDT05fTUFSR0lOIiwiU3R5bGVTaGVldCIsImNyZWF0ZSIsIndpZHRoIiwiaGVpZ2h0IiwibWFyZ2luIiwidHJhbnNmb3JtIl0sInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL0hlYWRlci9IZWFkZXJJY29uLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6W251bGxdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUEsSUFBQUEsT0FBQSxHQUFBQyxPQUFBO0FBQ0EsSUFBQUMsWUFBQSxHQUFBRCxPQUFBO0FBQTRFLElBQUFFLFdBQUEsR0FBQUYsT0FBQTtBQUFBLElBQUFHLFNBQUE7QUFFckUsU0FBU0MsVUFBVUEsQ0FBQUMsSUFBQSxFQUF5QztFQUFBLElBQXRDQyxNQUFNLEdBQUFELElBQUEsQ0FBTkMsTUFBTTtJQUFFQyxLQUFLLEdBQUFGLElBQUEsQ0FBTEUsS0FBSztJQUFLQyxJQUFBLE9BQUFDLHlCQUFBLENBQUFDLE9BQUEsRUFBQUwsSUFBQSxFQUFBRixTQUFBO0VBQzdDLElBQUFRLFNBQUEsR0FBbUIsSUFBQUMsZ0JBQVEsRUFBQyxDQUFDO0lBQXJCQyxNQUFBLEdBQUFGLFNBQUEsQ0FBQUUsTUFBQTtFQUNSLElBQUFDLFVBQUEsR0FBc0IsSUFBQUMsaUJBQVMsRUFBQyxDQUFDO0lBQXpCQyxTQUFBLEdBQUFGLFVBQUEsQ0FBQUUsU0FBQTtFQUVSLE9BQ0UsSUFBQUMsZUFBQSxFQUFDQyxrQkFBSyxFQUFBQyxNQUFBLENBQUFDLE1BQUE7SUFDSmQsTUFBTSxFQUFFQSxNQUFPO0lBQ2ZlLFVBQVUsRUFBQyxTQUFTO0lBQ3BCQyxZQUFZLEVBQUUsQ0FBRTtJQUNoQkMsU0FBUyxFQUFFVixNQUFNLENBQUNXLElBQUs7SUFDdkJqQixLQUFLLEVBQUUsQ0FBQ2tCLE1BQU0sQ0FBQ0MsSUFBSSxFQUFFVixTQUFTLEtBQUssS0FBSyxJQUFJUyxNQUFNLENBQUNFLElBQUksRUFBRXBCLEtBQUs7RUFBRSxHQUM1REMsSUFBQSxDQUNMLENBQUM7QUFFTjtBQUVPLElBQU1vQixTQUFTLEdBQUFDLE9BQUEsQ0FBQUQsU0FBQSxHQUFHRSxxQkFBUSxDQUFDQyxFQUFFLEtBQUssS0FBSyxHQUFHLEVBQUUsR0FBRyxFQUFFO0FBQ2pELElBQU1DLFdBQVcsR0FBQUgsT0FBQSxDQUFBRyxXQUFBLEdBQUdGLHFCQUFRLENBQUNDLEVBQUUsS0FBSyxLQUFLLEdBQUcsQ0FBQyxHQUFHLENBQUM7QUFFeEQsSUFBTU4sTUFBTSxHQUFHUSx1QkFBVSxDQUFDQyxNQUFNLENBQUM7RUFDL0JSLElBQUksRUFBRTtJQUNKUyxLQUFLLEVBQUVQLFNBQVM7SUFDaEJRLE1BQU0sRUFBRVIsU0FBUztJQUNqQlMsTUFBTSxFQUFFTDtFQUNWLENBQUM7RUFDREwsSUFBSSxFQUFFO0lBQ0pXLFNBQVMsRUFBRTtFQUNiO0FBQ0YsQ0FBQyxDQUFDIiwiaWdub3JlTGlzdCI6W119

@@ -1,0 +1,1 @@
+{"version":3,"names":["_Details","_interopRequireDefault","require","_Home"],"sources":["index.ts"],"sourcesContent":["export { default as DetailScreen } from './Details';\nexport { default as HomeScreen } from './Home';\n"],"mappings":";;;;;;;;;;;;;;;;AAAA,IAAAA,QAAA,GAAAC,sBAAA,CAAAC,OAAA;AACA,IAAAC,KAAA,GAAAF,sBAAA,CAAAC,OAAA","ignoreList":[]}

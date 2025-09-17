@@ -1,0 +1,20 @@
+72a56213f30673ec13b55eea6bd13862
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "DetailScreen", {
+  enumerable: true,
+  get: function get() {
+    return _Details.default;
+  }
+});
+Object.defineProperty(exports, "HomeScreen", {
+  enumerable: true,
+  get: function get() {
+    return _Home.default;
+  }
+});
+var _Details = _interopRequireDefault(require("./Details"));
+var _Home = _interopRequireDefault(require("./Home"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfRGV0YWlscyIsIl9pbnRlcm9wUmVxdWlyZURlZmF1bHQiLCJyZXF1aXJlIiwiX0hvbWUiXSwic291cmNlcyI6WyJpbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBkZWZhdWx0IGFzIERldGFpbFNjcmVlbiB9IGZyb20gJy4vRGV0YWlscyc7XG5leHBvcnQgeyBkZWZhdWx0IGFzIEhvbWVTY3JlZW4gfSBmcm9tICcuL0hvbWUnO1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsSUFBQUEsUUFBQSxHQUFBQyxzQkFBQSxDQUFBQyxPQUFBO0FBQ0EsSUFBQUMsS0FBQSxHQUFBRixzQkFBQSxDQUFBQyxPQUFBIiwiaWdub3JlTGlzdCI6W119

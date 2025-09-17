@@ -1,0 +1,19 @@
+b566a3afa2ce15b1f22e4c1c19c29d0b
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = exports.default = {
+  getCurrentPosition: jest.fn(function (success, error) {
+    success({
+      coords: {
+        latitude: 0,
+        longitude: 0
+      }
+    });
+  }),
+  watchPosition: jest.fn(),
+  clearWatch: jest.fn(),
+  stopObserving: jest.fn()
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJnZXRDdXJyZW50UG9zaXRpb24iLCJqZXN0IiwiZm4iLCJzdWNjZXNzIiwiZXJyb3IiLCJjb29yZHMiLCJsYXRpdHVkZSIsImxvbmdpdHVkZSIsIndhdGNoUG9zaXRpb24iLCJjbGVhcldhdGNoIiwic3RvcE9ic2VydmluZyJdLCJzb3VyY2VzIjpbImdlb2xvY2F0aW9uLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcbiAgZ2V0Q3VycmVudFBvc2l0aW9uOiBqZXN0LmZuKChzdWNjZXNzLCBlcnJvcikgPT4ge1xuICAgIC8vIFJldG9ybmEgY29vcmRlbmFkYXMgZmljdMOtY2lhc1xuICAgIHN1Y2Nlc3MoeyBjb29yZHM6IHsgbGF0aXR1ZGU6IDAsIGxvbmdpdHVkZTogMCB9IH0pO1xuICB9KSxcbiAgd2F0Y2hQb3NpdGlvbjogamVzdC5mbigpLFxuICBjbGVhcldhdGNoOiBqZXN0LmZuKCksXG4gIHN0b3BPYnNlcnZpbmc6IGplc3QuZm4oKSxcbn07XG4iXSwibWFwcGluZ3MiOiI7Ozs7aUNBQWU7RUFDYkEsa0JBQWtCLEVBQUVDLElBQUksQ0FBQ0MsRUFBRSxDQUFDLFVBQUNDLE9BQU8sRUFBRUMsS0FBSyxFQUFLO0lBRTlDRCxPQUFPLENBQUM7TUFBRUUsTUFBTSxFQUFFO1FBQUVDLFFBQVEsRUFBRSxDQUFDO1FBQUVDLFNBQVMsRUFBRTtNQUFFO0lBQUUsQ0FBQyxDQUFDO0VBQ3BELENBQUMsQ0FBQztFQUNGQyxhQUFhLEVBQUVQLElBQUksQ0FBQ0MsRUFBRSxDQUFDLENBQUM7RUFDeEJPLFVBQVUsRUFBRVIsSUFBSSxDQUFDQyxFQUFFLENBQUMsQ0FBQztFQUNyQlEsYUFBYSxFQUFFVCxJQUFJLENBQUNDLEVBQUUsQ0FBQztBQUN6QixDQUFDIiwiaWdub3JlTGlzdCI6W119

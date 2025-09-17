@@ -1,0 +1,13 @@
+9138dbbc9aedd0cb6e7f04b51b66adbe
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = MockIcon;
+var _reactNative = require("react-native");
+var _jsxRuntime = require("react/jsx-runtime");
+function MockIcon(props) {
+  return (0, _jsxRuntime.jsx)(_reactNative.Text, {
+    children: props.name
+  });
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfcmVhY3ROYXRpdmUiLCJyZXF1aXJlIiwiX2pzeFJ1bnRpbWUiLCJNb2NrSWNvbiIsInByb3BzIiwianN4IiwiVGV4dCIsImNoaWxkcmVuIiwibmFtZSJdLCJzb3VyY2VzIjpbInJlYWN0LW5hdGl2ZS12ZWN0b3ItaWNvbnMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgVGV4dCB9IGZyb20gJ3JlYWN0LW5hdGl2ZSc7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE1vY2tJY29uKHByb3BzKSB7XG4gIHJldHVybiA8VGV4dD57cHJvcHMubmFtZX08L1RleHQ+O1xufVxuIl0sIm1hcHBpbmdzIjoiOzs7O0FBQUEsSUFBQUEsWUFBQSxHQUFBQyxPQUFBO0FBQW9DLElBQUFDLFdBQUEsR0FBQUQsT0FBQTtBQUVyQixTQUFTRSxRQUFRQSxDQUFDQyxLQUFLLEVBQUU7RUFDdEMsT0FBTyxJQUFBRixXQUFBLENBQUFHLEdBQUEsRUFBQ0wsWUFBQSxDQUFBTSxJQUFJO0lBQUFDLFFBQUEsRUFBRUgsS0FBSyxDQUFDSTtFQUFJLENBQU8sQ0FBQztBQUNsQyIsImlnbm9yZUxpc3QiOltdfQ==
